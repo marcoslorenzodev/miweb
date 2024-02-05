@@ -1,0 +1,35 @@
+.navbar {
+    background: transparent;
+    backdrop-filter: blur(5px);
+    position: sticky;
+    top: 0;
+}
+
+.navbar-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.navbar-list {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar-list li {
+    list-style: none;
+}
+
+
+.navbar-list li a {
+    color: rgba(255, 255, 255, 0.521);
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.navbar-list li a:hover {
+    color: white;
+    transition: all .5s ease;
+}

@@ -1,11 +1,13 @@
-import { useState } from 'react'
+import { Header } from './Header'
+import { Experience } from './Experience'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-   
+    <>
+      <Header/>
+      <Experience/>
+    </>
   )
 }
 
