@@ -9,6 +9,8 @@ export function Navbar(){
                     </svg></a></li>
                 <li><a href="#">Sobre mí</a></li>
                 <li><a href="#">Contactame</a></li>
+                <li><a href="#">Mis trabajos</a></li>
+                <li><a href="#">Proyectos personales</a></li>
             </ul>
         </nav>
     )

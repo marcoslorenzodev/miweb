@@ -1,0 +1,56 @@
+hr {
+    margin: 0 240px;
+}
+
+button {
+    cursor: pointer;
+    font-weight: 900;
+    border: none;
+    border-radius: 15px;
+    width: 130px;
+    height: 35px;
+    color: white;
+    background-color: #000000a1;
+}
+
+button:hover {
+    color: #000;
+    background-color: transparent;
+    border: 1px solid #000000a1;
+    transition: all .5s ease;
+}
+
+.mywork-header {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mywork-first-project-container, .mywork-second-project-container {
+    height: 60vh;
+    display: flex;
+    margin: 0 70px;
+}
+
+.mywork-first-project-container-info, .mywork-second-project-container-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.mywork-first-project-container-img-container, .mywork-second-project-container-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mywork-first-project-img, .mywork-second-project-img {
+    width: 400px;
+    height: 250px;
+}
+
+

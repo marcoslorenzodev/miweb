@@ -1,5 +1,6 @@
 import { Header } from './Header'
 import { Experience } from './Experience'
+import { MyWork } from './Mywork'
 import './App.css'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <Header/>
       <Experience/>
+      <MyWork/>
     </>
   )
 }
