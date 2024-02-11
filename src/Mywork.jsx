@@ -48,7 +48,6 @@ export function MyWork(){
                     <img src="/src/assets/mywork1.jpg" alt="primer proyecto" className="mywork-first-project-img"/>
                 </div>
             </section>
-            <hr />
         </main>
         </>
     )
