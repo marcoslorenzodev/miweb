@@ -1,5 +1,6 @@
+
 hr {
-    margin: 0 240px;
+    margin: 0 340px;
 }
 
 button {
@@ -31,6 +32,8 @@ button:hover {
 .mywork-first-project-container, .mywork-second-project-container {
     height: 60vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0 70px;
 }
 
