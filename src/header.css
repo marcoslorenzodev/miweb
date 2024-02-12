@@ -1,6 +1,6 @@
 
 .header-background {
-    background-image: linear-gradient(rgba(150, 150, 150, 0.5), rgba(255, 255, 255, 0.5)),
+    background-image: linear-gradient(rgba(150, 150, 150, 0.1), rgba(255, 255, 255, 0.3)),
                     url("./assets/fondo.jpg");
     background-position: center center;
     background-repeat: no-repeat;
@@ -49,12 +49,14 @@
     color: white;
     font-weight: 900;
     border-radius: 20px;
+    transition: all .3s ease;
 }
 
 .header-content-button:hover {
+    border: none;
     background-color: white;
     color: #000;
-    transition: all .3s ease-in;
+    transition: all .3s ease;
 }
 
 
@@ -74,5 +76,11 @@
     border-bottom: 1px solid white;
     color: white;
     font-weight: 100;
+}
+
+.header-content-link:hover {
+    color: #000;
+    transition: all .5s ease;
+    border-bottom: 1px solid #000;
 }
 

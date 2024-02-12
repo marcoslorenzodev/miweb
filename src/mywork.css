@@ -12,6 +12,7 @@ button {
     height: 35px;
     color: white;
     background-color: #000000a1;
+    transition: all .5s ease;
 }
 
 button:hover {
